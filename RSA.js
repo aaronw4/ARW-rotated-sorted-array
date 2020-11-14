@@ -9,7 +9,6 @@ var search = function(nums, target) {
     if (target in numsObj) {
         return numsObj[target]
     } else {
-        console.log(numsObj)
         return -1
     }
 };
